@@ -52,6 +52,6 @@ resource "random_pet" "pet2" {
   prefix = timestamp()
 }
 
-output "pet2" {
-  value = random_pet.pet2.*.id
+output "version" {
+  value = 1
 }
